@@ -65,7 +65,7 @@
                     <assembleDirectory>target</assembleDirectory>
                     <programs>
                         <program>
-                            <mainClass>launch.Main</mainClass>
+                            <mainClass>FollowMeApplication</mainClass>
                             <name>webapp</name>
                         </program>
                     </programs>

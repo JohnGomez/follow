@@ -1,1 +1,1 @@
-web: web: java $JAVA_OPTS -cp target/classes:target/m2e-wtp/*.jar FollowMeApplication
+web: sh target/bin/webapp
