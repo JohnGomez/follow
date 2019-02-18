@@ -1,9 +1,9 @@
 # Followme
 
-Trata-se aplicação para automatizar tarefas no instagram, como:
+Trata-se aplicação web para automatizar tarefas no instagram, como:
 - Buscar usuários que não seguem de volta.
 - UnFollow em massa
-- Agendamento de tarefas (Postagnes programadas, Envio de mensagens).
+- Agendamento de tarefas (Postagens programadas, Envio de mensagens, etc).
 
 Tecnologias:
  - Java, Servlets e JSP
