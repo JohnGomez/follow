@@ -54,6 +54,7 @@
         <div class="container">
             <!-- Jumbotron Header -->
              <header class="jumbotron my-4">
+               <h4>${list.size()}  não te seguem e volta</h4>
              </header>
 
             <div class="row">
@@ -70,7 +71,11 @@
                      <script>
                         $(document).ready(function(){
                             $('#btn-unfollow${user.pk}').click(function(){
-                                $('#${user.pk}').fadeOut('slow');
+                               $.post("/unfollow", { userId: ${user.pk} }, function(data) {
+                                       $('#${user.pk}').fadeOut('slow');
+                                      }).fail(function() {
+                                        alert("Ocorreram erros ao tentar fazer o unfollow");
+                                });
                              });
                         });
                      </script>
