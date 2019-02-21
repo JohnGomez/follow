@@ -21,14 +21,6 @@
              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-            <script>
-                $(document).ready(function(){
-                    $('#btn-unfollow').click(function(){
-                    console.log('Oi to aqui');
-                        $('#card-unfollow').hide('fast');
-                    });
-                });
-            </script>
     </head>
     <body>
     <!-- Navigation -->
@@ -89,7 +81,7 @@
 
         <footer class="py-5 bg-dark">
             <div class="container">
-              <p class="m-0 text-center text-white">Copyright &copy; <a href="https://github.com/JohnGomez/follow">John Gomes 2019</a></p>
+              <p class="m-0 text-center text-white">Copyright &copy; <a href="https://github.com/JohnGomez/follow">John Gomes </a> 2019</p>
             </div>
             <!-- /.container -->
           </footer>
