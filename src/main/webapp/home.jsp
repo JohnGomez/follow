@@ -60,12 +60,12 @@
             <div class="row">
                 <c:forEach var="user" items="${list}">
                 <div id="${user.pk}" class="col-lg-3 col-md-2 mb-3">
-                    <div class="card" style="width:270px">
+                    <div class="card">
                         <img class="card-img-top" src=${user.profile_pic_url} alt="Card image">
                         <div class="card-body">
                         <h4 class="card-title">${user.username}</h4>
                         <p class="card-text">${user.full_name}</p>
-                        <a href="#" id="btn-unfollow${user.pk}" class="btn btn-primary">UnFollow</a>
+                        <button href="#" id="btn-unfollow${user.pk}" class="btn btn-primary">UnFollow</a>
                         </div>
                     </div>
                      <script>
