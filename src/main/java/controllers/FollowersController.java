@@ -1,5 +1,6 @@
 package controllers;
 
+import model.UserSummary;
 import org.brunocvcunha.instagram4j.Instagram4j;
 import org.brunocvcunha.instagram4j.requests.payload.InstagramSearchUsernameResult;
 import org.brunocvcunha.instagram4j.requests.payload.InstagramUserSummary;
@@ -26,7 +27,7 @@ public class FollowersController extends HttpServlet {
         Instagram4j instagram = (Instagram4j) session.getAttribute("instagram");
 
         FollowersService service = new FollowersService(instagram);
-        List<InstagramUserSummary> result =  service.findNotFollowers(userResult.getUser());
+        List<UserSummary> result =  service.findNotFollowers(userResult.getUser());
 
         req.setAttribute("list", result);
 
